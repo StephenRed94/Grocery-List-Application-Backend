@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
     return res.status(400).json({ error: 'Search query is required' });
   }
 
-  res.setHeader('Access-Control-Allow-Origin', 'https://stephenred94.github.io/Grocery-List-Application/');
+  res.setHeader('Access-Control-Allow-Origin', 'https://stephenred94.github.io');
   res.setHeader('Access-Control-Allow-Methods', 'GET'); // Allow GET requests
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type'); // Allow Content-Type header
 
